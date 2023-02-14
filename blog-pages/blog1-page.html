@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <button class="burger"></button>
+            <a href="../Index.html">Home</a>
+            <a href="../featured-works.html">Works</a>
+            <a href="../blog.html" class="active">Blog</a>
+            <a href="../contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="posts-container">
+                <div class="post">
+                    <h3>Making a design system from scratch</h3>
+                    <span class="data">12 Feb 2022</span>
+                    <span class="topik">Express, Handlebars</span>
+                    <p>
+                        As someone who's always been striving for consistency, building
+                        delightful and accessible experiences, and trying to do all that
+                        faster than ever, the concept of ✨design systems✨ has always
+                        interested me. I believe in setting up clear standards for colors
+                        and fonts and establishing patterns to build reusable components
+                        as the key to building sustainable UIs that can withstand the test
+                        of time.
+                    </p>
+                    <p>
+                        For the past few years, I've been working a lot on this blog, the
+                        interactive experiences showcased in my blog posts, and several
+                        other tiny projects that needed consistency in branding and
+                        components. The more I worked on them, the more I felt the need to
+                        stop copy-pasting code and colors between projects and needed my
+                        own set of UI pieces: my personal design system.
+                    </p>
+                    <p>
+                        After pouring countless hours into this project and sharing my
+                        progress over the past several months (almost a year now
+                        actually!), I felt it was time to write a little return on
+                        experience to focus on all the things I've learned while building
+                        a design system on my own 😊. So in this blog post, I'll go
+                        through the component patterns I came up with, explain how I
+                        picked up my tokens and overall the design system thinking
+                        mentality I adopted to make this project (somewhat) successful.
+                    </p>
+                    <div class="video">
+                        <iframe width="700" height="394" src="https://www.youtube.com/embed/KRlje1h6caU" title="Design Systems by UXPin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <h2>
+                        Context: Why would I even choose to build my own design system?
+                    </h2>
+                    <p>
+                        Before jumping on the actual building part of this blog post, I
+                        first want to give a bit more context on why I chose to dedicate
+                        time to this project. Among the many reasons why this project came
+                        to life, you will mainly find:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>Branding:</strong>
+                                I'm trying very hard to be unique in an endless sea of
+                                developers' blogs/websites looking more or less the same. I
+                                want people to recognize my work from afar through my choice
+                                of colors, logo, components design, playfulness, and attention
+                                to detail.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <strong>Consistency:</strong>
+                                Each piece composing this system should have a purpose. All
+                                components follow the same guidelines and are composed of more
+                                primitive elements/tokens.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <strong>Fun and Learning:</strong>
+                                I learned a lot about component building, design system
+                                thinking, and myself while building this tiny library. It
+                                helped me develop some empathy and step back and think twice
+                                about the interface of a component, composability,
+                                abstraction, and scalability. Focusing on one piece of the
+                                system at a time and making that one component mine was tons
+                                of fun and very satisfying.
+                            </p>
+                        </li>
+                    </ul>
+                    <p>
+                        This project was not a necessity per se, but the more my
+                        blog/portfolio and brand were evolving, the more I was striving
+                        for these things, and the more not having a design system was
+                        slowing me down. I needed my own set of "Lego pieces" that I could
+                        rearrange/combine infinitely. Thus the idea of building a personal
+                        design system came to my mind:
+                        <strong>
+                            A small scoped design system mainly composed of primitive
+                            components focused solely on personal branding and personal use.
+                        </strong>
+                    </p>
+                    <p>
+                        Even though the scope of this design system feels small compared to the bigger ones we can get to work on in a work context, it was not necessarily less complex to build. In the following parts, I'll go through the challenges and decisions I've made along the way when working on this project.
+                    </p>
+                </div>
+                <!-- post -->
+            </div>
+            <!-- ./posts-container -->
+        </div>
+        <!-- ./container -->
+    </section>
+    
+    <footer>
+        <div class="socials">
+            <a href="https://www.facebook.com/" class="icon fb"></a>
+            <a href="https://www.instagram.com/" class="icon inst"></a>
+            <a href="https://twitter.com/" class="icon tw"></a>
+            <a href="https://ua.linkedin.com/" class="icon in"></a>
+        </div>
+        <p>Copyright ©2020 All rights reserved</p>
+    </footer>
+</body>
+
+</html>
